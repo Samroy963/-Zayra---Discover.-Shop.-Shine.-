@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zayra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="zayra.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1> Zayra </h1>
+        <div class="navbarLinks">
+            <p class="navLink"><a href="index.html">Home</a></p>
+            <p class="navLink"><a href="collection.html">Collections</a></p>
+            <p class="navLink"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="toggle" onclick="showNavbar()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <nav class="sideNavbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="sidenavbarLinks">
+            <p class="sidenavLink"><a href="index.html">Home</a></p>
+            <p class="sidenavLink"><a href="collection.html">Collections</a></p>
+            <p class="sidenavLink"><a href="contact.html">Contact</a></p>
+        </div>
+    </nav>
+
+    <h2 id="contactTitle">Feel free to provide some below details <i class="fa-regular fa-face-smile"></i></h2>
+
+    <div class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone No</label>
+                <input type="tel" id="phone" placeholder="Enter your contact number">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password">
+            </div>
+            <input type="button" value="Submit" id="btn" onclick="Clicky()">
+        </form>
+    </div>
+
+       
+    <div class="footer">
+        <div class="footerContainer">
+            <div class="footerBox1">
+             <h2 class="headingText">Zayra</h2>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt officia illum dolore facere, repudiandae dolorem tempora praesentium obcaecati possimus maxime similique dolor minus? Voluptatum, non error.</p>
+             <div class="footericonContainer">
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            </div> 
+            <p>
+                @ 2025 Zayra.com
+            </p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="collection.js"></script>
+
+</html>
