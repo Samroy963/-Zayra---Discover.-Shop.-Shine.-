@@ -2,11 +2,6 @@
 
 Zayra is a modern, responsive e-commerce web application built for fashion-forward users. It features a sleek design, seamless navigation, and curated collections to offer the best online shopping experience.
 
-## ✨ Live Demo
-[Check it out here](#) <!-- Replace # with your live site URL -->
-
----
-
 ## 📌 Features
 
 - 🏠 **Home** – Welcoming landing page with stylish design
