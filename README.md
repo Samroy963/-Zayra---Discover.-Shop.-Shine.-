@@ -31,6 +31,6 @@ Zayra is a modern, responsive e-commerce web application built for fashion-forwa
 To run this project locally:
 
 ```bash
-git clone https://github.com/Samroy963/zayra.git
+https://github.com/Samroy963/-Zayra---Discover.-Shop.-Shine.-.git
 cd zayra
 open index.html
